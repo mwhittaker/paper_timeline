@@ -1,4 +1,5 @@
 .vis-item {
+    font-size: 75%;
     border-color: black;
     background-color: white;
 }
@@ -8,9 +9,9 @@
 }
 
 .paper-paragraph {
-    width: 200px;
+    width: 150px;
 }
 
 .paper-thumb {
-    width: 200px;
+    width: 100px;
 }

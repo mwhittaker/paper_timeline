@@ -11,7 +11,7 @@ function paper_to_html(paper) {
          '  <a href="' + paper.link + '">' + paper.title + '</a>' +
          '</p>' +
          '<a href="' + paper.link + '">' +
-         '  <img class= "paper-thumb" src="' + paper.thumbnail + '">' +
+         '  <img class="paper-thumb" src="' + paper.thumbnail + '">' +
          '</a>';
 }
 
@@ -43,6 +43,11 @@ function load_papers(genres, papers) {
 
   var timeline = new vis.Timeline(container, new vis.DataSet(items),
                                   new vis.DataSet(groups), options);
+
+  // Item heights are computed before images have a chance to load. Here, we
+  // implement a hack and resize things after 2 seconds which is hopefully
+  // enough time for the images to load.
+  setTimeout(function() { timeline.redraw(); }, 2000);
 }
 
 function main() {
@@ -91,5 +96,3 @@ function main() {
 
   load_papers(genres, papers);
 }
-
-main();

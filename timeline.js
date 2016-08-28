@@ -76,10 +76,31 @@ function main() {
       genre: consensus_algorithms
     },
     {
+      title: "Zab: High-performance broadcast for primary-backup systems",
+      link: "https://goo.gl/G52EGK",
+      thumbnail: "thumbnails/zab.svg",
+      date: new Date(2011, 6, 27),
+      genre: consensus_algorithms
+    },
+    {
+      title: "Viewstamped Replication Revisted",
+      link: "https://goo.gl/GKFCXO",
+      thumbnail: "thumbnails/viewstamped_revisited.svg",
+      date: new Date(2012, 7, 23),
+      genre: consensus_algorithms
+    },
+    {
       title: "In Search of an Understandable Consensus Algorithm",
       link: "https://goo.gl/2jyuR6",
       thumbnail: "thumbnails/raft.svg",
       date: new Date(2014, 6, 19),
+      genre: consensus_algorithms
+    },
+    {
+      title: "Vive La Difference: Paxos vs. Viewstamped Replication vs. Zab",
+      link: "https://goo.gl/1LKNkM",
+      thumbnail: "thumbnails/vive_la_difference.svg",
+      date: new Date(2014, 9, 8),
       genre: consensus_algorithms
     },
 

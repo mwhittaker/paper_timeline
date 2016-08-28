@@ -1,0 +1,17 @@
+.vis-item {
+    border-color: black;
+    background-color: white;
+}
+
+.vis-item .vis-item-content {
+    white-space: normal;
+}
+
+.paper-paragraph {
+    width: 200px;
+}
+
+.paper-thumb {
+    width: 200px;
+    border: 1;
+}

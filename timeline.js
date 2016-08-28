@@ -91,7 +91,13 @@ function main() {
       date: new Date(2000, 3, 3),
       genre: isolation_levels
     },
-
+    {
+      title: "Highly Available Transactions: Virtues and Limitations",
+      link: "https://goo.gl/xWRdyj",
+      thumbnail: "thumbnails/HAT_virtues_and_limitations.svg",
+      date: new Date(2013, 11),
+      genre: isolation_levels
+    },
   ];
 
   load_papers(genres, papers);

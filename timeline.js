@@ -85,6 +85,13 @@ function main() {
 
     // Isolation Levels
     {
+      title: "A Critique of ANSI SQL Isolation Levels",
+      link: "https://goo.gl/zIYWZM",
+      thumbnail: "thumbnails/A_Critique_of_ANSI_SQL_IsolationL_evels.svg",
+      date: new Date(1995, 5),
+      genre: isolation_levels
+    },
+    {
       title: "Generalized Isolation Level Definitions",
       link: "https://goo.gl/Z451LY",
       thumbnail: "thumbnails/generalized_isolation.svg",
